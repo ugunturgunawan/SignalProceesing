@@ -4,6 +4,7 @@ load spectral_codeChallenge.mat;
 figure;
 plot(time,signal);
 title('Time-domain Signal');
+xlabel('Time (s)'), ylabel('Amplitude');
 %% FFT
 fs = srate;
 n = length(signal);
